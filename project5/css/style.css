@@ -1,0 +1,248 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p,a,span,ul,ol{
+	padding: 0; 
+	margin: 0;
+
+}
+/*header css part start*/
+#header{
+	background-color:#f6f9f9 ;
+	padding: 10px;
+}
+.collapse ul li a {
+	color: black;
+	text-transform: uppercase;
+	text-align: left;
+	color: black;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	margin: 0px 10px;
+}
+.collapse ul li a:hover{
+  color: black;
+}
+#banner{
+	background-image: url(../picture/headerpic.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.text_content{
+	text-align: center;
+	color: white;
+	margin: 250px;
+	
+}
+.text_content h1{
+   font-family: 'Lato', sans-serif;
+   font-weight: 700;
+   font-size: 100px;
+}
+.text_content p{
+   font-family: 'Lato', sans-serif;
+   font-weight: 400;
+   font-size: 25px;
+   margin: 40px;
+   color: white;
+}
+
+.text_content a{
+	border: 2px solid #3f8dbf;
+	padding: 10px 45px;
+	color: white;
+	text-transform: uppercase;
+/*	background-color: #3f8dbf;*/
+	font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+
+
+}
+.border{
+	margin: 30px;
+	color: #4691c4;
+}
+.text_content1{
+	text-align: center;
+	margin-top:78px;
+}
+#text{
+	 background-color: #f6f9f9;
+}
+.text_content1 h3{
+	color: black;
+	font-family: 'Lato', sans-serif;
+	font-size:40px ;
+	margin-bottom: 30px;
+}
+.text_content1 p{
+	color: black;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	margin-bottom: 80px;
+}
+/*header css part end*/
+/*service part css start*/
+.sakif{
+	text-align: center;
+}
+.sakif img{
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+.text_content3 h4{
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 22px;
+
+}
+.text_content3 p{
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	margin-top: 10px;
+	color:#bfbfbf ;
+
+}
+/*service part css end*/
+/*gallery part css start*/
+#gallery{
+	text-align: center;
+	background-color: #f6f9f9;
+
+}
+.text_content6 h3{
+	margin-top: 70px;
+	margin-bottom: 20px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 41px;
+}
+.text_content6 p{
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	margin-bottom: 90px;
+}
+.picture{
+	position: relative;
+	margin-right: 20px;
+	margin-bottom: 40px;
+}
+.picture_overlay{
+    position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width:100%;
+	justify-content: center;
+	align-items: center;
+	transform: scale(0);
+	transition: all linear .3s;
+	background-color:#1597e8;
+	text-align: center;
+	opacity: 0.8;
+	display: flex;
+}
+.picture_overlay a{
+  margin: 10px 10px;
+  border: 2px solid white;
+  padding: 10px 15px;
+  margin-top: 30px;
+}
+.picture:hover .picture_overlay{
+  transform: scale(1);
+  transition: all linear .3s;
+}
+	
+/*gallery part css end*/
+/*imformation css start*/
+#information{
+	background-image: url(../picture/big.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 760px;
+}
+.text_content7{
+	color: white;
+	text-align: center;
+	margin-top: 70px;
+
+
+}
+.text_content7 h3{
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+.text_content7 p{
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 40px;
+	margin-bottom: 15px;
+}
+.form-group input {
+  background-color: transparent;
+  padding: 20px;
+}
+.form-group textarea{
+	background-color: transparent;
+	padding: 20px;
+}
+.form-check label{
+	color: white;
+}
+.form-check label{
+	margin-top: 40px;
+}
+.form-check input{
+	margin-top: 43px;
+}
+.sakif label{
+	margin-top: 20px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400px;
+}
+.ancor a{
+	margin-top: 20px;
+}
+.sent{
+	margin-top: -30px;
+	margin-left: 700px;
+}
+.sent a{
+	border: 2px solid #189ae9;
+	background-color: transparent;
+	padding: 8px 50px;
+	color: white;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400px;
+	font-size: 20px;
+}
+/*imformation css end*/
+/*footer css partt start*/
+footer{
+	margin-top: 50px;
+}
+.container-fluid h3{
+	font-family: 'Lato', sans-serif;
+	font-weight: 400px;
+	font-size: 20px;
+}
+.collapse ul li a i{
+	border: 1px solid #189ae9;
+	padding: 10px 8px;
+	background-color: #189ae9;
+}
+/*footer css partt end*/
+/*font-family: 'Lato', sans-serif;*/
